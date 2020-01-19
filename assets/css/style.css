@@ -1,0 +1,458 @@
+/* --------------------------------------------------
+ *  General
+ * -------------------------------------------------*/
+
+body {
+	font-family: "Futura PT", "Futura", "Helvetica", "Sans serif";
+	font-size: 14px;
+	color: #2c2c34;
+	background-color: #fff;
+}
+
+p {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 11px;
+	margin-left: 0px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Futura PT';
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 { 
+	font-size: 20px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+*:before {
+	box-sizing: border-box;
+}
+
+*:after {
+	box-sizing: border-box;
+}
+
+.text-muted {
+	color: #777777 !important;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.p-2 {
+	padding: 0.5rem !important;
+}
+
+.mb-4 {
+	margin-bottom: 1.5rem !important;
+}
+
+.text-size-14-fix {
+	font-size: 14px;
+}
+
+.text-size-12-fix {
+	font-size: 12px;
+}
+
+.text-size-10-fix {
+	font-size: 10px;
+}
+
+small {
+	font-size: 80%;
+}
+
+.hidden {
+	display: none !important;
+}
+
+ul.fake-api-testing {
+	margin-top: -30px;
+}
+
+h5.fake-api-testing {
+	margin-top: 10px;
+}
+
+table.fake-api-testing {
+	display: block;
+	width: 100%;
+}
+
+form.fake-api-testing {
+	display: block;
+}
+
+td.fake-api-testing-debug-column {
+	padding-left: 50px;
+}
+
+/* --------------------------------------------------
+ *  Buttons and links
+ * -------------------------------------------------*/
+
+.btn {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	color: #ffffff;
+	background-color: #00babc;
+	white-space: nowrap;
+	padding-top: 6px;
+	padding-right: 12px;
+	padding-bottom: 6px;
+	padding-left: 12px;
+	font-size: 16px;
+	line-height: 1.428571429;
+	border-radius: 1px;
+	border: 1px solid transparent;
+	user-select: none;
+}
+
+.btn:hover {
+	background-color: #008889;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* --------------------------------------------------
+ *  Content
+ * -------------------------------------------------*/
+
+.page-content {
+	margin: 0 0 0 0;
+	position: relative;
+	left: 0px;
+}
+
+/* --------------------------------------------------
+ *  Forms
+ * -------------------------------------------------*/
+
+.list-group {
+	margin-bottom: 20px;
+	padding-left: 0;
+}
+
+ul, ol {
+	margin-top: 0;
+	margin-bottom: 11px;
+}
+
+.list-group-item {
+	position: relative;
+	display: block;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	margin-bottom: -1px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.list-group-item:first-child {
+	border-top-right-radius: 1px;
+	border-top-left-radius: 1px;
+}
+
+.list-group-item:last-child {
+	border-bottom-right-radius: 1px;
+	border-bottom-left-radius: 1px;
+}
+
+form {
+	display: block;
+	margin-top: 0em;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-horizontal .form-group:before,
+.form-horizontal .form-group:after {
+	content: " ";
+	display: table;
+}
+
+.form-horizontal .form-group:after {
+	clear: both;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	height: 36px;
+	padding-top: 6px;
+	padding-right: 12px;
+	padding-bottom: 6px;
+	padding-left: 12px;
+	font-size: 16px;
+	line-height: 1.428571429;
+	color: #555555;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.modal {
+	display: none;
+	position: absolute;
+	z-index: 1 !important;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	top: 0;
+	left: 0;
+}
+
+.red-bg {
+	background-color: #D8636F;
+}
+
+.red-bg:hover {
+	background-color: #bd4451;
+}
+
+.small-number-input {
+	width: 110px;
+	display: inline-block;
+}
+
+.modal-window {
+	position: absolute;
+	height: 20%;
+	width: 40%;
+	background-color: #FFF;
+	top: 40%;
+	left: 30%;
+	border-radius: 0.25em;
+	overflow: auto;
+}
+
+.error-msg {
+	display: none;
+	text-align: center;
+	color: #D8636F;
+}
+
+.modal-title {
+	font: 'Futura PT';
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.modal-help-block {
+	padding-top: 10px;
+}
+
+.modal-form-group {
+	padding: 15px;
+}
+
+.modal-content {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+.modal-button {
+	width: 200px;
+}	
+
+.mini-form {
+	width: 90px;
+}
+
+button, input, optgroup, select, textarea {
+	margin: 0 0 0 0 ;
+}
+
+input {
+	text-rendering: auto;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	text-align: start;
+	cursor: text;
+}
+
+label {
+	font-size: 14px;
+	display: inline-block;
+	max-width: 100%;
+	font-weight: bold;
+	line-height: 1.428571429;
+}
+
+.form-horizontal .control-label {
+	text-align: right;
+	margin-bottom: 0;
+	padding-top: 7px;
+}
+
+.submission-response {
+	display: inline-block;
+}
+
+input[type="text"]:disabled {
+	background-color: #eee;
+}
+
+.col-sm-1 { width: 8.3333333% }
+.col-sm-2 { width: 28%; }
+.col-sm-3 { width: 25%; }
+.col-sm-4 { width: 33.3333333%; }
+.col-sm-5 { width: 41.66666667%; }
+.col-sm-6 { width: 50%; }
+.col-sm-7 { width: 58.3333333%; }
+.col-sm-8 { width: 66.666666667%; }
+.col-sm-9 { width: 75%; }
+.col-sm-10 { width: 83.333333%; }
+.col-sm-11 { width: 91.66666667%; }
+.col-sm-12 { width: 100%; }
+
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-3,
+.col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8,
+.col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-left 15px;
+	padding-right: 15px;
+}
+
+.col-sm-offset-2 { margin-left: 16.6666666667%; }
+
+.help-block {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	color: #737373;
+	font-size: 14px;
+}
+
+.number-input-form {
+	float: left;
+	width: 40px;
+	padding: 0;
+	padding-left: 5px;
+	display: inline-block;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+
+/* --------------------------------------------------
+ *  Font Sources
+ * -------------------------------------------------*/
+
+@font-face{
+
+	font-family:"Futura PT";
+	src:url(/assets/fonts/Futura_Light_font.ttf) format("truetype");
+	font-weight:200;
+	font-style:normal
+}
+
+@font-face{
+font-family:"Futura PT";
+	src:url(/assets/fonts/Futura_Light_Italic_font.ttf) format("truetype");
+	font-weight:200;
+	font-style:italic
+}
+
+@font-face{
+	font-family:"Futura PT";
+	src:url(/assets/fonts/Futura_Book_font.ttf) format("truetype");
+	font-weight:400;
+	font-style:normal
+}
+	
+@font-face{
+	font-family:"Futura PT";
+	src:url(/assets/fonts/Futura_Book_Italic_font.ttf) format("truetype");
+	font-weight:400;
+	font-style:italic
+}
+	
+@font-face{
+	font-family:"Futura PT";
+	src:url(/assets/fonts/Futura_Heavy_font.ttf) format("truetype");
+	font-weight:700;
+	font-style:normal
+}
+	
+@font-face{
+	font-family:"Futura PT";
+	src:url(/assets/fonts/Futura_Heavy_Italic_font.ttf) format("truetype");
+	font-weight:700;
+	font-style:italic
+}
+	
+@font-face{
+	font-family:"Noto Sans";
+	src:url(/assets/fonts/NotoSans-Regular.ttf) format("truetype");
+	font-weight:400;
+	font-style:normal
+}
+	
+@font-face{
+	font-family:"Noto Sans";
+	src:url(/assets/fonts/NotoSans-Italic.ttf) format("truetype");
+	font-weight:400;
+	font-style:italic
+}
+	
+@font-face{
+	font-family:"Noto Sans";
+	src:url(/assets/fonts/NotoSans-Bold.ttf) format("truetype");
+	font-weight:700;
+	font-style:normal
+}
+	
+@font-face{
+	font-family:"Noto Sans";
+	src:url(/assets/fonts/NotoSans-BoldItalic.ttf) format("truetype");
+	font-weight:700;
+	font-style:italic
+}

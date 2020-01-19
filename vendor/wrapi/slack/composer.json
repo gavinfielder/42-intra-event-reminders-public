@@ -1,0 +1,37 @@
+{
+    "name": "wrapi/slack",
+    "description": "Wrapper for Slack Web API",
+    "type": "library",
+    "keywords": [
+        "slack",
+        "wrapi",
+        "REST",
+        "API",
+        "api wrapper",
+        "api client",
+        "slack-api",
+        "slack-web-api",
+        "slack wrapper",
+        "slack api wrapper",
+        "slack api client",
+        "slack web api wrapper",
+        "slack web api client",
+        "guzzle"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/palanik/slack-php",
+    "authors": [
+        {
+            "name": "palanik"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "palanik/wrapi": "^0.1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "wrapi\\slack\\": "src/"
+        }
+    }
+}

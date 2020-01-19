@@ -1,0 +1,7 @@
+{
+    "require": {
+        "wrapi/slack": "^1.0",
+        "phpmailer/phpmailer": "^6.0",
+        "twilio/sdk": "^5.34"
+    }
+}
